@@ -1,0 +1,303 @@
+.add-new a {
+    font-size: 18px;
+    font-weight: 500;
+    background: #198754;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7px 12px;
+    color: white;
+    margin-right: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.add-new a:hover {
+    background: #e1e6ed;
+    color: black;
+}
+
+.heading-icon {
+    height: 24px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+}
+
+form {
+    border-top: 3px solid #25396f;
+}
+
+.form-group {
+    /* overflow: hidden; */
+    position: relative;
+}
+
+input,
+select {
+    /* background: #f2f7ff; */
+    border: none;
+    border-bottom: 1px solid #757575;
+    border-radius: 7px;
+    outline: none;
+    width: 100%;
+    /* margin: 10px 21px; */
+    padding: 5px 10px;
+    color: #757575;
+    box-shadow: 1px 3px 5px 0px #dadada;
+}
+
+.form-group label {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    font-size: 16px;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.form-group .required {
+    color: #dc3545;
+}
+
+/* Floating effect for select */
+.form-group select:focus+label,
+.form-group select:valid+label {
+    top: -10px;
+    left: 20px;
+    font-size: 11px;
+}
+
+/* Float the label when input is focused or has value */
+.form-group input:focus+label,
+.form-group input:not(:placeholder-shown)+label {
+    top: -10px;
+    left: 20px;
+    font-size: 11px;
+}
+
+button:focus {
+    outline: 1px solid white;
+}
+
+.save {
+    background: #198754;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7px 25px;
+    color: white;
+    margin-right: 10px;
+    background: linear-gradient(90deg, #198754 50%, #dc3545 150%);
+    transition: all .2s ease-in-out;
+}
+
+.save:hover {
+    background: #e1e6ed;
+    color: black;
+}
+
+.cancel {
+    background: #dc3545;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7px 25px;
+    color: white;
+    margin-left: 0px 10px;
+    background: linear-gradient(90deg, #198754 -50%, #dc3545 50%);
+    transition: all .2s ease-in-out;
+}
+
+.cancel:hover {
+    background: #e1e6ed;
+    color: black;
+}
+
+.back {
+    background: #25396f;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7px 25px;
+    color: white;
+    margin-left: 0px 10px;
+    transition: all .2s ease-in-out;
+}
+
+.back:hover {
+    background: #e1e6ed;
+    color: black;
+}
+
+/* table css  */
+.table-responsive {
+    border-top: 3px solid #25396f;
+}
+
+table {
+    white-space: nowrap;
+    word-break: break-word;
+}
+
+td {
+    border: 1px solid #e0e0e0;
+    padding: 7px 14px;
+    background: white;
+}
+
+th {
+    border: 1px solid #e0e0e0;
+    padding: 7px 14px;
+    color: black;
+    background: #dadada;
+    font-weight: 700;
+}
+
+thead tr,
+tfoot tr {
+    background: #e8e8e8;
+}
+
+table.dataTable th.dt-type-numeric div.dt-column-header,
+table.dataTable th.dt-type-numeric div.dt-column-footer,
+table.dataTable th.dt-type-date div.dt-column-header,
+table.dataTable th.dt-type-date div.dt-column-footer,
+table.dataTable td.dt-type-numeric div.dt-column-header,
+table.dataTable td.dt-type-numeric div.dt-column-footer,
+table.dataTable td.dt-type-date div.dt-column-header,
+table.dataTable td.dt-type-date div.dt-column-footer {
+    flex-direction: row;
+}
+
+table.dataTable th.dt-type-numeric,
+table.dataTable th.dt-type-date,
+table.dataTable td.dt-type-numeric,
+table.dataTable td.dt-type-date {
+    text-align: left;
+}
+
+.update {
+    background: #25396f;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7px 20px;
+    color: white;
+    margin-right: 3px;
+    background: linear-gradient(90deg, #25396f 50%, #dc3545 120%);
+    transition: all .2s ease-in-out;
+}
+
+.update:hover {
+    background: #e1e6ed;
+    color: black;
+}
+
+.delete {
+    background: #dc3545;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7px 20px;
+    color: white;
+    background: linear-gradient(90deg, #25396f -50%, #dc3545 50%);
+    transition: all .2s ease-in-out;
+}
+
+.delete:hover {
+    background: #e1e6ed;
+    color: black;
+}
+
+.next,
+.prev {
+    background: #25396f;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7px 20px;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.next:hover,
+.prev:hover {
+    background: #e1e6ed;
+    color: black;
+}
+
+.disabled {
+    filter: opacity(.5);
+    cursor: not-allowed;
+}
+
+.highlight {
+    background-color: #25396f;
+    font-weight: bold;
+    color: white;
+}
+
+.number::-webkit-outer-spin-button,
+.number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* sales order  */
+.searched-customers-table {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    border: 1px solid black;
+    margin-top: 10px;
+    z-index: 100;
+    overflow: auto;
+}
+
+.product-table {
+    overflow: auto;
+}
+
+.increse,
+.decrese {
+    border: none;
+    background: #5e5ef99c;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0px 5px;
+}
+
+.increse:hover,
+.decrese:hover {
+    background: #5e5ef952;
+}
+
+.take-cust {
+    border: 1px solid white;
+    background: #25396f;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 2px 11px;
+}
+
+/* img{
+    filter: drop-shadow(1px 1px 3px black);
+} */
+
+button,
+.add-new a {
+    border-radius: .5rem;
+}
+
+button:active,
+.add-new a:active {
+    filter: brightness(0.5);
+    outline: 1px solid black;
+}
+
+.grand-total {
+    border: 1px solid #e0e0e0;
+    padding: .9rem .7rem;
+}
+
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 2px;
+}
