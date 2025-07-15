@@ -74,7 +74,7 @@
             <div class="form-group col-md-4 mb-4">
                 <input type="hidden" name="gst-code" id="gst-code" placeholder="" value="' . $gstCode . '" required>
                 <input type="text" name="gst-code" id="gst-code" placeholder="" value="' . $gstCode . '" disabled required>
-                <label for="gst-code">gst Code<span class="required">*</span></label>
+                <label for="gst-code">GST Code<span class="required">*</span></label>
             </div>
             ';
 

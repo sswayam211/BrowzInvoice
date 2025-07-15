@@ -62,7 +62,7 @@ if ($curResult && $curResult->num_rows > 0) {
         .invoice-box {
             border: 1px solid black;
             color: black;
-            overflow: hidden;
+            overflow: auto;
         }
 
         h5 {

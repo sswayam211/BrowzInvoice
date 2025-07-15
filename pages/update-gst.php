@@ -56,7 +56,7 @@
                     <div class="form-group col-md-4 mb-4">
                         <input type="hidden" name="gst-code" id="gst-code" placeholder="" value="' . $data['GST_CODE'] . '" required>
                         <input type="text" name="gst-code" id="gst-code" placeholder="" value="' . $data['GST_CODE'] . '" disabled required>
-                        <label for="gst-code">gst Code<span class="required">*</span></label>
+                        <label for="gst-code">GST Code<span class="required">*</span></label>
                     </div>
                     <div class="form-group col-md-4 mb-4">
                         <input type="text" name="category" id="category" placeholder="" value="' . $data['GST_CATEGORY'] . '" required>
