@@ -508,8 +508,8 @@ if ($curResult && $curResult->num_rows > 0) {
                 <tr>
                     <td></td>
                     <td class="text-end bold"><?php echo '<span>' . $curSymbol . '</span> ' . number_format($totalAmountWOGST); ?></td>
-                    <td class="text-end"><?php echo number_format($totalGSTVal / 2, 2); ?></td>
                     <td class="text-end"><?php echo number_format((($totalGSTVal / 2) / $totalAmountWOGST) * 100, 2); ?>%</td>
+                    <td class="text-end"><?php echo number_format($totalGSTVal / 2, 2); ?></td>
                     <td class="text-end"><?php echo number_format((($totalGSTVal / 2) / $totalAmountWOGST) * 100, 2); ?>%</td>
                     <td class="text-end"><?php echo number_format($totalGSTVal / 2, 2); ?></td>
                     <td class="text-end"><?php echo number_format($totalGSTVal, 2); ?></td>
